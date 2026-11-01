@@ -26,8 +26,26 @@ Thumbs.db
 # ------------------------------------------
 .env
 .env.*
+.env*.local
 !.env.example
 !.env.local.example
+
+# Private keys, certificates and credentials
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.pfx
+*.p12
+*.keystore
+id_rsa*
+id_ecdsa*
+id_ed25519*
+service-account*.json
+*credentials*.json
+auth-tokens*
+*.secret
 
 # ------------------------------------------
 # Python Dependencies & Virtual Environments
